@@ -34,9 +34,12 @@ li {
 	margin-top: 20px;
 	color: #696969;
 	position: relative;
+	
+	
 }
 .settings h1 {
 	margin-bottom: 5px;
+	
 }
 .settings input[type="text"]{
 	width: 100%;
@@ -95,6 +98,9 @@ span {
 	color:  #c0c0c0;
 	
 }
+.list-1 li:first-of-type {
+	background-image: url('../images/icons/toggle.png');
+}
 .set   {
 	display: flex;
 	background-color: #fff;
@@ -128,4 +134,14 @@ ol > li{
 	background-position: 97%;
     background-repeat: no-repeat;
     z-index: 2;
+}
+
+li {
+	transition: filter .3s ease-in-out;
+	
+}
+li:hover {
+	filter: brightness(120%);
+
+	
 }
